@@ -2,6 +2,7 @@ ul.ulstyle
 {
   background: #1e2324;
   padding: 20px;
+  list-style: none;
 }
 
 ul li
