@@ -1,0 +1,96 @@
+.container {
+  text-align: center;
+}
+.container ul {
+  border: 1px solid;
+  border-color: white;
+  display: inline-block;
+  margin: 20px 5px;
+  padding: 5px;
+}
+.container li {
+
+  padding: 10px;
+  background: #31393b;
+  font-family: 'Times New Roman', Times, serif;
+
+}
+.container li a {
+  display: inline-block;
+  background: #444;
+  color: #FFF;
+  padding: 10px;
+}
+
+
+ul{
+  list-style: none;
+}
+
+body
+{
+  color: white;
+  background-color: #1e2324;
+  text-align: center;
+}
+
+.entry input[type = "text"]
+{
+  border:0;
+	background: none;
+	display: block;
+	margin:20px auto;
+	text-align: center;
+	border: 2px solid #3498db;
+	padding:14px 10px;
+	width: 200px;
+	outline: none;
+	color: white;
+	border-radius: 24px;
+	transition: 0.25s;
+}
+
+.entry input[type = "text"]:focus{ 
+	width: 280px;
+	border-color: #2ecc71;
+}
+
+.entry input[type = "submit"]{
+	border:0;
+	background:none;
+	display: black;
+	margin: 20px auto;
+	text-align: center;
+	border:2px solid #2ecc71;
+	padding:14px 40px;
+
+	outline: none;
+	color: white;
+	border-radius: 24px;
+	transition: 0.25s;
+	cursor: pointer;
+}
+
+@media screen and (max-width: 425px) {
+  body
+   {
+    width: 100%;
+	}
+	.pstyle
+	{
+		width: 50%;
+	}
+}
+
+.pstyle {
+	text-align: center;
+	font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+	border: 1px solid;
+	border-color: white;
+	display: inline-block;
+	margin: 20px 5px;
+	padding: 10px;
+	background: #31393b;
+	display: inline-block;
+	color: #FFF;
+  }
