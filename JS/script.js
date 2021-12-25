@@ -5,7 +5,7 @@ function clicked() {
 
 
     if(pass.value == corpass)
-        window.open("../html/secret.html")
+        window.open("../HTML/secret.html")
     
 
     else
